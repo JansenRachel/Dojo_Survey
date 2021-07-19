@@ -15,4 +15,12 @@ def process(request):
     return render(request, 'result.html', context)
     return render(request, 'result.html')
 
+# def result(request):
+#     request.session['name'] = request.POST['name'],
+#     request.session['language'] = request.POST['Language'],
+#     request.session['location'] = request.POST['Your Location'],
+#     request.session['comment'] =  request.POST['comment']
+
+
+
 

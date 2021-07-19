@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dojo Survey Results</title>
     {% load static %}
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/result.css' %}">
 </head>
 <body>
-    <h1>Submitted Info</h1>
-    <p>Name: {{name}}<p>
-    <p>Dojo Location: {{loc}}</p>
-    <p>Favorite Language: {{lang}}</p>
-    <p>Comment: {{com}}</p>
-    <a class="btn btn-primary" href="/" role="button">Go Back</a>
+    <div>
+        <h1>Submitted Info</h1>
+        <p>Name: {{name}}<p>
+        <p>Dojo Location: {{location}}</p>
+        <p>Favorite Language: {{language}}</p>
+        <p>Comment: {{comment}}</p>
+        <a class="btn btn-primary" href="/" role="button">Go Back</a>
+    </div>
 </body>
 </html>
